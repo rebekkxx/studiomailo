@@ -1,0 +1,105 @@
+html {
+    background-color: #FBFBF4;
+}
+
+body {
+    margin: 3rem 4rem;
+}
+
+h1, h2, h3 {
+    color: #2B2E10;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+p {
+    color: #2B2E10;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 140%;
+}
+
+h1 {
+    font-size: 2.5rem;
+
+}
+
+a {
+    color: #686E0C;
+}
+
+.logo {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .skill {
+    background-color: #D8DC9D;
+    border-radius: 1rem;
+    padding: 0.25rem 1.5rem;
+    font-style: italic;
+    height: 10rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+  .skill > p {
+    font-family: 'Times New Roman', Times, serif;
+}
+  .container-skills {
+    margin-top: 5rem;
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax( 16rem, 1fr));
+  }
+
+
+@media only screen and (min-width: 850px) {
+
+    p {
+        font-size: 1.25rem;
+
+    }
+    
+    h1 {
+        font-size: 3.5rem;
+    
+    }
+
+    .container-skills {
+        margin-top: 5rem;
+        display: flex;
+      }
+
+    .skill {
+        width: 100%;
+      }
+
+}
+
+
+
+    @media only screen and (min-width: 1200px) {
+    body {
+            margin: 5rem 7.5rem;
+        }
+    
+        .flex-container {
+        display: flex;
+        gap: 3rem;
+    }
+
+    .text-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 5rem;
+    }
+
+    .rotate {
+        rotate: -90deg;
+    }
+
+}
+
